@@ -1,0 +1,282 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Asad Kazmi - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar  -->
+     <nav>
+      <div id="home">
+        <div class="profile_name">
+          Syed Asad Kazmi
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="Email"/>
+            syedasadkazmi41@gmail.com
+          </div>
+          <div style="clear:both;"></div>
+          <div class="contact_info">
+            <img src="html_finalprojimages/phone.png" alt="Phone"/>
+            +923102231725
+          </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="ak.png" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Syed Asad Kazmi! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am an <b>AI Engineer, Cybersecurity Specialist, and Full Stack Developer</b> with expertise in 
+            <b>Generative AI, Ethical Hacking, Cloud Computing, and Secure Infrastructure</b>.  
+            I hold <b>25+ globally recognized certifications</b> from DeepLearning.AI, IBM, Google, AWS, and Johns Hopkins University, 
+            consistently achieving top grades (90–100%).  
+            My passion lies in building <b>secure, scalable, and intelligent solutions</b> that bridge AI innovation with cybersecurity defense.
+          </p>
+      </div>
+    </section> 
+              
+    <!-- Skills -->
+     <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/python.png"/>
+          <h6>Python (AI/ML)</h6>
+          <p>Advanced – Deep Learning, LLMs, RAG, LangChain</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/cyber.png"/>
+          <h6>Cybersecurity</h6>
+          <p>Penetration Testing, Ethical Hacking, Forensics</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/cloud.png"/>
+          <h6>Cloud Computing</h6>
+          <p>AWS, IBM Cloud, Google Cloud – Certified</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/linux.png"/>
+          <h6>Linux & Automation</h6>
+          <p>Advanced troubleshooting & scripting</p>
+        </div>
+      </div>
+    </section> 
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div style="clear:both;"></div>
+
+      <div id="projects-container" class="projects-container">
+        <div class="project-card">
+          <h3>AI-Powered Network Anomaly Detection</h3>
+          <ul>
+            <li>Developed a system using Machine Learning to detect anomalies in real-time network traffic for cybersecurity defense.</li>
+          </ul>
+        </div>
+        <hr>
+        <div class="project-card">
+          <h3>Generative AI Toolkit</h3>
+          <ul>
+            <li>Built a Python-based toolkit for data cleaning, visualization, and AI-driven insights using LLMs and LangChain.</li>
+          </ul>
+        </div>
+        <hr>
+        <div class="project-card">
+          <h3>Penetration Testing Lab</h3>
+          <ul>
+            <li>Designed a secure lab environment with Metasploit, Wireshark, and OpenVAS for ethical hacking and vulnerability testing.</li>
+          </ul>
+        </div>
+        <hr>
+        <div class="project-card">
+          <h3>Cloud-Deployed Chatbot</h3>
+          <ul>
+            <li>Created a secure chatbot integrated with IBM Watson Assistant and deployed on IBM Cloud for enterprise clients.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div style="clear:both;"></div> 
+
+    <!-- Recommendations -->
+     <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Asad is an exceptional AI and Cybersecurity professional. His ability to combine deep technical expertise with practical solutions makes him a valuable asset to any team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          His certifications and hands-on skills in cloud, AI, and penetration testing are unmatched. He consistently delivers secure and scalable solutions.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Asad’s professionalism, curiosity, and leadership qualities make him stand out. He is not only a problem solver but also a mentor for learners.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section> 
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    
+ <div id="home-icon" class="iconbutton" title="Home">
+    <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="home" width="30" />
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thank you for your recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+
+    </div>
+  </body>
+</html> 
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+   🔹 Task 8: Home Icon -->
+  <!-- <div id="home-icon" class="iconbutton" title="Home">
+    <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="home" width="30" />
+  </div> -->
+
+  <!-- 🔹 Navigation Bar -->
+  <!-- <div id="home">
+    <div class="profile_name">Syed Asad Kazmi</div>
+    <div class="topdiv">
+      <a href="#about-me" class="topmenu">About</a>
+      <a href="#projects" class="topmenu">Project details</a>
+      <a href="#skills" class="topmenu">Skills</a>
+      <a href="#recommendations" class="topmenu">Recommendations</a>
+    </div>
+  </div> -->
+
+  <!-- 🔹 About Me Section -->
+  <!-- <section id="about-me" class="about-me container">
+    <img src="profile.jpg" alt="Profile" class="profile_image" />
+    <div>
+      <h1>About Me</h1>
+      <p>Hello! I'm Asad, a passionate web developer and cybersecurity enthusiast.</p>
+    </div>
+  </section> -->
+
+  <!-- 🔹 Skills Section -->
+  <!-- <section id="skills">
+    <h2>Skills</h2>
+    <div class="all_skills">
+      <div class="skill"><img src="html.png" alt="">HTML</div>
+      <div class="skill"><img src="css.png" alt="">CSS</div>
+      <div class="skill"><img src="js.png" alt="">JavaScript</div>
+      <div class="skill"><img src="python.png" alt="">Python</div>
+      <div class="skill"><img src="java.png" alt="">Java</div>
+    </div>
+  </section> -->
+
+  <!-- 🔹 Projects Section -->
+  <!-- <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>AI Chat Assistant</h3>
+        <ul>
+          <li>Developed using JavaScript and OpenAI API.</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <ul>
+          <li>Responsive web design using HTML, CSS & JS.</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <h3>Stock Market Analyzer</h3>
+        <ul>
+          <li>Predictive analysis using JavaFX and data structures.</li>
+        </ul>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- 🔹 Recommendations Section -->
+  <!-- <section id="recommendations"> -->
+    <!-- <h2>Recommendations</h2>
+    <div id="all_recommendations" class="all_recommendations">
+      <div class="recommendation"><span>“</span>Asad is a talented developer with great focus!<span>”</span></div>
+      <div class="recommendation"><span>“</span>Excellent teamwork and creativity.<span>”</span></div>
+      <div class="recommendation"><span>“</span>Always delivers quality work on time.<span>”</span></div>
+    </div>
+  </section> -->
+
+  <!-- 🔹 Task 7: Add New Recommendation -->
+  <!-- <section id="new-recommendation">
+    <h2>Add a Recommendation</h2>
+    <textarea id="new_recommendation" placeholder="Write your recommendation..."></textarea>
+    <button onclick="addRecommendation()">Submit</button>
+  </section> -->
+
+  <!-- 🔹 Popup for confirmation -->
+  <!-- <div id="popup" class="popup">
+    <p>✅ Thank you for submitting a recommendation!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> -->
