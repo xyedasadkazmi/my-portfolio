@@ -370,7 +370,7 @@ button:hover {
 /* 🔹 Home Icon (Task 8) */
 #home-icon {
   position: fixed;
-  top: 20px;
+  top: 90%;
   right: 25px;
   font-size: 28px;
   color: #7600bc;
