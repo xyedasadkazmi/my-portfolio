@@ -12,7 +12,7 @@ body {
   margin-top:-1cm;
   padding-top: 2cm;
   padding-bottom: 2cm;
-  height: 5mm;
+  height: 3mm;
  }
 
 .topmenu {
@@ -369,7 +369,7 @@ button:hover {
 
 /* 🔹 Home Icon (Task 8) */
 #home-icon {
-  position: fixed;
+  #position: fixed;
   top: 90%;
   right: 25px;
   font-size: 28px;
