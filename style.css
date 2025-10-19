@@ -369,7 +369,7 @@ button:hover {
 
 /* 🔹 Home Icon (Task 8) */
 #home-icon {
-  #position: fixed;
+  /* position: fixed; */
   top: 90%;
   right: 25px;
   font-size: 28px;
